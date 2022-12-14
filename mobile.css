@@ -1,0 +1,21 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.57rem;
+    padding-bottom: 0.57rem;
+    overflow: hidden;
+    height: 80px;
+}
+
+#gaming .items {
+    flex-direction: column;
+}
+
+#gaming .items .item {
+    width: 100%;
+}
+
+.newscast .news {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
