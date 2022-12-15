@@ -112,16 +112,18 @@ html {
 .newscast .news .news-image {
     margin-right: 0.5rem;
     position:relative;
+    width: 300px;
 }
 
 
 
 .newscast .news .news-image img {
     border-radius: 5px;
+    width: 100%;
+    
 }
 
 .newscast .news .news-image span {
-    background: red;
     padding: 0.25rem;
     color: #fff;
     border-radius: 4px;
