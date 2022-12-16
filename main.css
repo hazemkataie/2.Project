@@ -51,7 +51,7 @@ html {
 }
 
 #home img {
-    max-width: 35%;
+    max-width: 30%;
     height: auto;
     border-radius: 100%;
 }
@@ -124,6 +124,7 @@ html {
 }
 
 .newscast .news .news-image span {
+    background: red;
     padding: 0.25rem;
     color: #fff;
     border-radius: 4px;
