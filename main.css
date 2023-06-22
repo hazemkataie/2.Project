@@ -39,6 +39,7 @@ html {
     border-radius: 4px;
 }
 
+
 /* HOME SECTION*/
 
 #home {
@@ -47,23 +48,19 @@ html {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid black;
+    background-image: url("./Images/deneme2.jpg");
 }
 
 #home img {
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
     border-radius: 100%;
 }
 
 #home .name h2 {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-}
-
-#home .name p {
-    opacity: 0.6;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: white;
 }
 
 
