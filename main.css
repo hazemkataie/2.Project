@@ -42,16 +42,6 @@ html {
 .heading-small-sheyzam{
     font-size: 1.7rem;
     color: #fff;
-    animation: pulsate 0.11s ease-in-out infinite alternate;
-    text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #c40d25,
-      0 0 82px #c40d25,
-      0 0 92px #c40d25,
-      0 0 102px #c40d25,
-      0 0 151px rgb(131, 9, 19);
 }
 
 /* HOME SECTION*/
@@ -106,8 +96,9 @@ html {
 /* NEWS */
 
 #news {
-    color: #333;
+    color: #ffffff;
     padding: 1rem;
+    background-color: #222222;
 }
 
 .newscast {
@@ -125,7 +116,7 @@ html {
 .newscast .news .news-image {
     margin-right: 0.5rem;
     position:relative;
-    width: 300px;
+    width: 400px;
 }
 
 
@@ -133,12 +124,11 @@ html {
 .newscast .news .news-image img {
     border-radius: 5px;
     width: 100%;
-    
 }
 
 .newscast .news .news-image span {
-    background: red;
-    padding: 0.25rem;
+    background: darkred;
+    padding: 0.5rem;
     color: #fff;
     border-radius: 4px;
     position: absolute;
@@ -159,21 +149,21 @@ html {
 }
 
 .newscast .news .news-info .instructor {
-    font-size: 0.8rem;
-    margin-bottom: 0.25rem;
-    opacity: 0.6;   
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;  
 }
 
 .newscast .news .news-info .rating {
+    color: #ddd;
     font-size: 0.8rem;
     margin-bottom: 0.25rem;
-    opacity: 0.6; 
+    opacity: 0.9; 
 }
 
 /* CONTACTS */
 
 #contact {
-    color: #fff;
+    color: #ffffff;
     padding: 1rem;
 }
 
@@ -199,35 +189,4 @@ html {
 
 #contact .contact-form ul a:hover {
     opacity: 0.8;
-}
-
-@keyframes pulsate {
-    
-    100% {
-  
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #c40d25,
-        0 0 80px #c40d25,
-        0 0 90px #c40d25,
-        0 0 100px #c40d25,
-        0 0 150px #c40d25,
-    
-    }
-    
-    0% {
-  
-      text-shadow:
-      0 0 4px #fff,
-      0 0 10px #fff,
-      0 0 18px #fff,
-      0 0 38px #c40d25,
-      0 0 73px #c40d25,
-      0 0 80px #c40d25,
-      0 0 94px #c40d25,
-      0 0 140px #c40d25,
-  
-  }
 }
